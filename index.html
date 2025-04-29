@@ -45,37 +45,17 @@
             color: #D1D2D5;
         }
 
-        .two-columns {
-            text-align: center;
-            font-size: 0;
-            width: 100%;
-        }
-        .two-columns .img-column {
-            width: 100%;
-            max-width: 250px;
-            display: inline-block;
-            vertical-align: top;
-        }
-        .woman-img {
-            width: 250px;
-        }
-        .two-columns .text-column {
-            box-sizing: border-box;
-            width: 100%;
-            max-width: 350px;
-            display: inline-block;
-            vertical-align: top;
-            padding-top: 35px;
-            padding-right: 15px;
-            padding-left: 35px;
-            padding-bottom: 35px;
+        .company-text {
+            background-color: #FFFFFF;
+            padding: 10px 10% 40px;
             color: #4a4a4a;
-            text-align: left;
         }
-        .two-columns .content {
-            font-size: 14px;
-            line-height: 20px;
+
+        .company-text p {
+            text-align: justify;
+            line-height: 24px;
         }
+
         .two-columns-2 {
             padding-top: 30px;
             padding-left: 30px;
@@ -98,24 +78,28 @@
         }
         .link-mob {
             Margin-right: 10px;
-            Marging-left: 10px;
+            Margin-left: 10px;
         }
+        .support-link {
+                display: inline;
+            }
 
-        @media screen and (max-width: 600px) {
+        /* @media screen and (max-width: 600px) {
             
-        }
+        } */
 
         @media screen and (max-width: 400px) {
-            .img-column {
-                max-width: 400px;
-                padding-top: 25px;
+
+            .two-columns-2 {
+                text-align: center;
             }
-            .woman-img{
-                width: 95%;
-            }
+
             .follow-column {
                 padding-top: 30px;
             }
+        }
+
+        @media screen and (max-width: 480px) {
             .link-mob {
                 display: block;
                 margin-bottom: 10px;
@@ -143,7 +127,7 @@
                 </tr>
 
                 <tr>
-                    <td><a href=""><img src="img/black-credit-card.jpg" alt="" width="600" style="max-width: 100%;"></a></td>
+                    <td><a href=""><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgj8TYq4tP0DSGbz1EYEm350jj15cfWf7NU-H-VnCjidjTN16ggmb7dysawoAiWwo12gZnwK7MHkX7RP2IObC-Yzb_mdqqY_iL1yOA-XpvR_LujWJcEjJWcbL41HOj3CB3Y385OQ4LSucwoYBmExREUS04sFHBAejAUHdvAeXDrYulFwMReLGDjhutvEO0m/s320/black-credit-card.jpg" alt="" style="width: 100%;max-width: 600px;"></a></td>
                 </tr>
 
                 <tr>
@@ -174,7 +158,7 @@
                         <table width="100%" style="border-spacing: 0;background-color: #2C2C2C;padding-top: 40px;padding-right: 30px;padding-bottom: 50px;padding-left: 30px;">
                             <tr>
                                 <td style="text-align: center;color: #f5f5f5;">
-                                    <img src="img/conversation.png" alt="" style="padding-bottom: 20px;">
+                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhQVVkVTNOiqfR7thyphenhyphenc8sU_RHGZ0X13OKgGp7CCW3_4EMrX0DuuoyUBtknlEXAUxrgwp8FWSCK7tdwytSfacvRT9vjgICOjWuAXVUy7QRVXLrfIusSybacsbJwLHtUilsD6GSEnqV_Bpe7vzhx-fSY8HUNuw9vJC3NIrKrVrKxKmROHta2E_dKIsl9tf3bR/s1600/conversation.png" alt="" style="padding-bottom: 20px;">
                                     <h2 style="font-family: Georgia, 'Times New Roman', Times, serif;font-weight: 400;font-size: 28px;Margin: 0">We are here to help</h2>
                                     <p style="font-size: 14px;padding-bottom: 25px;">If you have any questions or need assistance with the process, our friendly support team is heere to help.</p>
 
@@ -194,44 +178,20 @@
                     <td>
                         <table width="100%" style="border-spacing: 0;">
                             <tr>
-                                <td class="two-columns">
+                                <td style="text-align: center;padding-top: 40px;">
+                                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi22_e4t7Abi3W8zdX_kBbh13jFohr34_jyg0rX4lShbge8TK_zDVQSIqsSHNpBUr2NCSQa3BcxuJGdHKgEEHmG4YhBwdrCQJoYr3ypZL1zOPck0sPxSUhuNt23esJQby5yBsAZ_G_sy2SBN77tDe49Y-f7LNs0AdNNIuCzwfe3LOKgRpD1BTkSYtmCVcAi/s250/Rectangle%2013.png" alt="" width="120px" style="width: 120px; height: auto;"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="company-text" > 
+                                    <p>
+                                        Thank you for choosing <b>LinguaProofer</b> for your language needs. We are committed to providing you with outstanding translation services. <br><br>
 
-                                    <table class="img-column">
-                                        <tr>
-                                            <td class="img-padding">
-
-                                                <table class="content">
-                                                    <tr>
-                                                        <td>
-                                                            <a href="#"><img src="img/langauge-instructor.jpg" alt="" style="max-width: 250px;" class="woman-img"></a>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-
-                                    <table class="text-column">
-                                        <tr>
-                                            <td class="padding">
-                                                <table class="content">
-                                                    <tr>
-                                                        <td>
-                                                            <p>
-                                                                Thank you for choosing <b>LinguaLink</b> for your language needs. We are committed to providing you with outstanding translation services. <br><br>
-
-                                                                Warm regards,<br>
-                                                                <b>Agnes Moore</b><br>
-                                                                <b>Translator</b><br>
-                                                                <b>LinguaProofer</b>
-                                                            </p>
-                                                        </td>
-                                                    </tr>
-                                                </table>
-                                            </td>
-                                        </tr>
-                                    </table>
-
+                                        Warm regards,<br>
+                                        <b>Agnes Moore</b><br>
+                                        <b>Translator</b><br>
+                                        <b>LinguaProofer</b>
+                                    </p>
                                 </td>
                             </tr>
                         </table>
@@ -270,13 +230,13 @@
                                                         <td>
                                                             <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;font-size: 25px;font-weight: 400;Margin: 0;">Follow Us</h3>
                                                             <p>
-                                                                <a href=""><img src="img/facebook.png" alt="" width="30"></a>
+                                                                <a href=""><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh3iGfzEO-VGxZc_-RAvYELKMcO1HgduiN2XLFabRUIyuSlQdLi7uJZVv1zHmS8ar6dTszG-H3MUJjGslG-uo_jpT-WviYOR3GBpdDOFJycGIBV4YRpxMXpW8Yi97YbiXizXlHXLUGcvf44IVVunsCK60BKobpwZBFmRacXpBLXoGxLp5zVJrXRqS15jEJw/s1600/facebook.png" alt="" width="24"></a>
 
-                                                                <a href=""><img src="img/instagram.png" alt="" width="30"></a>
+                                                                <a href=""><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgmo1HwWU3Udt6k3WT0wgf3i2COf43KHYz7gIicbe4Kq1xeHMqmVGfMiRAwg3Xl7ve-3i-8Gf2JlrBznM47j7e8RdPX8qJw86JObVNoIt9nyICcerPvjJuepoOadMRfGcCajt34qjc8UbaiJ8gYjOPy23xE3_ivVZlfcVIoTAbnhLzqJTWZY-aFB_L5mrzi/s1600/instagram.png" alt="" width="24"></a>
 
-                                                                <a href=""><img src="img/youtube.png" alt="" width="30"></a>
+                                                                <a href=""><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGKnAXizeDXH9LSI-GBAaMC1rugdVUj5aFzWzYELBkPO9sorIx5XdikprVrdPNLz9a3RX4nyUgAL9-yYM4jEq39VpFwcaRFls1iI5TlTR-xDUhwR27ovlWgS1cWtSNv44oXWBQ7WuI9y6THQve4i3aPkLeonGmwRt4qc7RehNLF0MYNRZ01wFRtQlCRneN/s1600/youtube.png" alt="" width="24"></a>
 
-                                                                <a href=""><img src="img/twitter.png" alt="" width="30"></a>
+                                                                <a href=""><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEht7Scb8czy-Bo9P5nHtLJnoxKePMTZkjcpfxpHaKgzHu6ude9ndY45_6Aif7o8BkPRZKUbspbzbAlJmhF75e3n_Cz5caKKGF8-NKbmPNOAz0JN3mSKwlWkh5eFVIz4RlpiUGSHkcYc9Mr-bzsyDO7PFjnsVWsGrnQwx7410txneKSMahNDTeXWdzB_2UX2/s1600/twitter.png" alt="" width="24"></a>
                                                             </p>
                                                             <p style="padding-top: 15px;"><em>To unsubscribe from updates, click here</em></p>
 
